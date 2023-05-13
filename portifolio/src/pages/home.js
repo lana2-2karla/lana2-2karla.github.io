@@ -1,8 +1,10 @@
+import React from 'react'
+
 function Home () {
   return (
     <div>
-        Homeeeeee
-        </div>
+      <h1>Homeeeeee</h1>
+    </div>
   )
 }
 
