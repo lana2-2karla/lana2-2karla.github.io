@@ -10,7 +10,7 @@ import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
 import MenuItem from '@mui/material/MenuItem'
 
-const pages = ['Sobre Mim', 'Skills', 'Projetos', 'Linkedin', 'GitHub']
+const pages = ['Sobre Mim', 'Habilidades', 'Projetos', 'Linkedin', 'GitHub']
 
 function ResponsiveHeader () {
   const [anchorElNav, setAnchorElNav] = React.useState(null)
@@ -24,7 +24,7 @@ function ResponsiveHeader () {
   }
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ bgcolor: 'hsla(0, 0%, 0%, 1)' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -45,6 +45,24 @@ function ResponsiveHeader () {
             LanaKarla
           </Typography>
 
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href=""
+            sx={{
+              mr: 2,
+              display: { xs: 'flex', md: 'none' },
+              flexGrow: 1,
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none'
+            }}
+          >
+            LanaKarlaCelu
+          </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -81,24 +99,6 @@ function ResponsiveHeader () {
               ))}
             </Menu>
           </Box>
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none'
-            }}
-          >
-            LanaKarlaCelu
-          </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
