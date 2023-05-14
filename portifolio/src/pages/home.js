@@ -1,9 +1,10 @@
 import React from 'react'
+import ResponsiveHeader from '../components/Header'
 
 function Home () {
   return (
     <div>
-      <h1>Homeeeeee</h1>
+      <ResponsiveHeader />
     </div>
   )
 }
