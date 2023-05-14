@@ -11,6 +11,8 @@ import Button from '@mui/material/Button'
 import MenuItem from '@mui/material/MenuItem'
 
 const pages = ['Sobre Mim', 'Habilidades', 'Projetos', 'Linkedin', 'GitHub']
+// const pagesCenter = ['Sobre Mim', 'Habilidades', 'Projetos']
+// const contactMe = ['Linkedin', 'GitHub']
 
 function ResponsiveHeader () {
   const [anchorElNav, setAnchorElNav] = React.useState(null)
@@ -42,7 +44,7 @@ function ResponsiveHeader () {
               textDecoration: 'none'
             }}
           >
-            LanaKarla
+            <Box sx={{ color: '#828282' }}>LANA</Box>KARLA
           </Typography>
 
           <Typography
@@ -54,14 +56,14 @@ function ResponsiveHeader () {
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              fontFamily: 'monospace',
+              fontFamily: 'serif',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none'
             }}
           >
-            LanaKarlaCelu
+            <Box sx={{ color: '#828282' }}>LANA</Box>KARLAcel
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
