@@ -10,10 +10,10 @@ import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
 import MenuItem from '@mui/material/MenuItem'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import GitHubIcon from '@mui/icons-material/GitHub'
 
 const pages = ['Sobre Mim', 'Habilidades', 'Projetos', 'Linkedin', 'GitHub']
-const pagesCenter = ['Sobre Mim', 'Habilidades', 'Projetos']
-// const contactMe = ['Linkedin', 'GitHub']
+const pagesCenter = ['Sobre', 'Habilidades', 'Projetos']
 
 function ResponsiveHeader () {
   const [anchorElNav, setAnchorElNav] = React.useState(null)
@@ -28,45 +28,47 @@ function ResponsiveHeader () {
 
   return (
     <AppBar position="static" sx={{ bgcolor: 'hsla(0, 0%, 0%, 1)' }}>
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none'
-            }}
-          >
-            <Box sx={{ color: '#828282' }}>LANA</Box>KARLA
-          </Typography>
+      <Container maxWidth="xl" sx={{ mx: 'auto', width: '70%' }}>
+        <Toolbar disableGutters sx={{ display: 'flex', justifyContent: { md: 'space-evenly', sm: 'center' } }}>
+          <Box sx={{ width: { xl: 1 / 3 } }}>
+            <Typography
+              variant="h6"
+              noWrap
+              component="a"
+              href="/"
+              sx={{
+                mr: 2,
+                display: { xs: 'none', md: 'flex' },
+                fontFamily: 'monospace',
+                fontWeight: 700,
+                letterSpacing: '.3rem',
+                color: 'inherit',
+                textDecoration: 'none'
+              }}
+            >
+              <Box sx={{ color: '#828282' }}>LANA</Box>KARLA
+            </Typography>
 
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'serif',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none'
-            }}
-          >
-            <Box sx={{ color: '#828282' }}>LANA</Box>KARLAcel
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <Typography
+              variant="h5"
+              noWrap
+              component="a"
+              href=""
+              sx={{
+                mr: 2,
+                display: { xs: 'flex', md: 'none' },
+                flexGrow: 1,
+                fontFamily: 'serif',
+                fontWeight: 700,
+                letterSpacing: '.3rem',
+                color: 'inherit',
+                textDecoration: 'none'
+              }}
+            >
+              <Box sx={{ color: '#828282' }}>LANA</Box>KARLAcel
+            </Typography>
+          </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, width: { xl: 1 / 3 } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -102,19 +104,19 @@ function ResponsiveHeader () {
               ))}
             </Menu>
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center', width: { xl: 1 / 3 } }}>
             {pagesCenter.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block', pr: 5 }}
               >
                 {page}
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
-            <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center', width: { xl: 1 / 3 } }}>
+            <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', pr: 2 }}>
               <LinkedInIcon />
               <Button
                 key='Linkedin'
@@ -124,7 +126,8 @@ function ResponsiveHeader () {
                 Linkedin
               </Button>
             </Box>
-            <Box>
+            <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <GitHubIcon />
               <Button
                 key='GitHub'
                 onClick={handleCloseNavMenu}
