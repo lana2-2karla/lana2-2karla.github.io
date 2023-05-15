@@ -9,9 +9,10 @@ import MenuIcon from '@mui/icons-material/Menu'
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
 import MenuItem from '@mui/material/MenuItem'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 
 const pages = ['Sobre Mim', 'Habilidades', 'Projetos', 'Linkedin', 'GitHub']
-// const pagesCenter = ['Sobre Mim', 'Habilidades', 'Projetos']
+const pagesCenter = ['Sobre Mim', 'Habilidades', 'Projetos']
 // const contactMe = ['Linkedin', 'GitHub']
 
 function ResponsiveHeader () {
@@ -101,8 +102,8 @@ function ResponsiveHeader () {
               ))}
             </Menu>
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
+            {pagesCenter.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -111,6 +112,27 @@ function ResponsiveHeader () {
                 {page}
               </Button>
             ))}
+          </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
+            <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <LinkedInIcon />
+              <Button
+                key='Linkedin'
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >
+                Linkedin
+              </Button>
+            </Box>
+            <Box>
+              <Button
+                key='GitHub'
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >
+                GitHub
+              </Button>
+            </Box>
           </Box>
         </Toolbar>
       </Container>
