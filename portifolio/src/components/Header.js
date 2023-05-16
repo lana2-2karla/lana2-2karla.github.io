@@ -67,7 +67,7 @@ function ResponsiveHeader () {
                 justifyContent: 'center'
               }}
             >
-              <Box sx={{ color: '#828282' }}>LANA</Box>KARLAcel
+              <Box sx={{ color: '#828282' }}>LANA</Box>KARLA
             </Typography>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, width: { xl: 1 / 3 }, justifyContent: 'center' }}>
