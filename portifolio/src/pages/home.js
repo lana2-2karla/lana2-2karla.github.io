@@ -1,6 +1,7 @@
 import React from 'react'
 import Box from '@mui/material/Box'
 import ResponsiveHeader from '../components/Header'
+import '../global.css'
 
 function Home () {
   return (
