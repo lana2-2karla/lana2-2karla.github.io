@@ -28,9 +28,9 @@ function ResponsiveHeader () {
 
   return (
     <AppBar position="static" sx={{ bgcolor: 'hsla(0, 0%, 0%, 1)' }}>
-      <Container maxWidth="xl" sx={{ mx: 'auto', width: '70%' }}>
-        <Toolbar disableGutters sx={{ display: 'flex', justifyContent: { md: 'space-evenly', sm: 'center' } }}>
-          <Box sx={{ width: { xl: 1 / 3 } }}>
+      <Container maxWidth="xl" sx={{ mx: 'auto', width: '90%' }}>
+        <Toolbar disableGutters sx={{ display: 'flex', justifyContent: { md: 'space-evenly' } }}>
+          <Box sx={{ flexGrow: 1, width: { xl: 1 / 3 } }}>
             <Typography
               variant="h6"
               noWrap
@@ -56,19 +56,21 @@ function ResponsiveHeader () {
               href=""
               sx={{
                 mr: 2,
-                display: { xs: 'flex', md: 'none' },
+                display: { xs: 'flex', md: 'none', sm: 'flex' },
                 flexGrow: 1,
                 fontFamily: 'serif',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
                 color: 'inherit',
-                textDecoration: 'none'
+                textDecoration: 'none',
+                alignItems: 'center',
+                justifyContent: 'center'
               }}
             >
               <Box sx={{ color: '#828282' }}>LANA</Box>KARLAcel
             </Typography>
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, width: { xl: 1 / 3 } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, width: { xl: 1 / 3 }, justifyContent: 'center' }}>
             <IconButton
               size="large"
               aria-label="account of current user"
