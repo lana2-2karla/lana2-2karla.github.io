@@ -23,7 +23,11 @@
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    border: 2px solid white; /* Adiciona uma borda branca nos cards */
+    border-top-left-radius: 50px; /* Borda redonda na extremidade esquerda de cima */
+    border-bottom-left-radius: 0; /* Borda quadrada na extremidade esquerda de baixo */
+    border-top-right-radius: 0; /* Borda quadrada na extremidade direita de cima */
+    border-bottom-right-radius: 50px; /* Borda redonda na extremidade direita de baixo */
+    border: 2px solid #666; /* Borda quadrada nas partes intermediárias */
   }
   
   .project-image {
