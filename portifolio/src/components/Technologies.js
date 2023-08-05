@@ -22,9 +22,10 @@ function Technologies () {
   return (
     <div className="technologies">
       <h2>Tecnologias</h2>
-      <div className="cards-container">
+      <br/><br/> <br/><br/>
+      <div className="cardsIcon-container">
         {technologies.map((technology, index) => (
-          <div key={index} className="card">
+          <div key={index} className="card-icon">
             <p>{technology.icon}</p>
             <p>{technology.name}</p>
           </div>
