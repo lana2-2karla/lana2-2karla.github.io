@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces */
 import React from 'react'
 import '../global.css'
 import Header from '../components/Header'
@@ -11,6 +12,7 @@ function Home () {
       <Header />
       <AboutMe />
       <Projects />
+      <br /> <br /> <br />
       <Technologies />
     </div>
   )
