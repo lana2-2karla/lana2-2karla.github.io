@@ -1,0 +1,40 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .tab {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  
+  .portfolio-tab {
+    cursor: pointer;
+    
+  }
+  
+  .svg-img-github {
+    margin-right: 5%; 
+  }
+  
