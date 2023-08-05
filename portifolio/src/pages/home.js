@@ -1,19 +1,12 @@
 import React from 'react'
-import Box from '@mui/material/Box'
-import ResponsiveHeader from '../components/Header'
 import '../global.css'
-import AboutMe from '../components/SectionAboutMe'
+import Header from '../components/Header'
 
 function Home () {
   return (
-    <Box sx={{
-      bgcolor: 'hsla(0, 0%, 0%, 1)'
-    }}>
-      <Box>
-          <ResponsiveHeader />
-      </Box>
-      <AboutMe />
-    </Box>
+    <div className="home">
+      <Header />
+    </div>
   )
 }
 
