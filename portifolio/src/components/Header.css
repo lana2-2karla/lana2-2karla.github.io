@@ -6,35 +6,34 @@
     align-items: center;
     color: white;
     padding: 10px;
-  }
+}
   
-  .left {
+.left {
     flex: 1;
-  }
+}
   
-  .center {
+.center {
     flex: 2;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .right {
+.right {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-  }
+}
   
-  .tab {
+.tab {
     margin: 0 15px;
     cursor: pointer;
-  }
+}
   
-  .portfolio-tab {
+.portfolio-tab {
     cursor: pointer;
-    
-  }
+}
   
-  .svg-img-github {
+.svg-img-github {
     margin-right: 5%; 
-  }
+}
   
