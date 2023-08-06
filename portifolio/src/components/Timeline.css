@@ -1,0 +1,52 @@
+.experience-timeline {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allow the elements to wrap to the next line if needed */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid #13ADC7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .experience h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: start;
+    word-wrap: break-word; /* Allow the h2 content to break into multiple lines */
+  }
+  
+  .experience h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .experience p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: #13ADC7;
+  }
+  
+  .experience-timeline .line:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .experience-timeline .line:not(:first-child) {
+    margin-left: 10px;
+  }
+  
