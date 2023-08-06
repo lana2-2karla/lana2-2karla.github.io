@@ -19,14 +19,18 @@ function Header () {
             </div>
             <p className="portfolio-tab">Portfólio</p>
         </div>
-        <div>
+        <div className="center">
             <a href="#projects" onClick={(event) => handleLinkClick(event, 'projects')}>Projetos</a>
             <a href="#experiences" onClick={(event) => handleLinkClick(event, 'experiences')}>Experiências</a>
             <a href="#technologies" onClick={(event) => handleLinkClick(event, 'technologies')}>Tecnologias</a>
         </div>
         <div className="right">
-            <img src={githubSvg} alt="github" className="svg-img-github" />
-            <img src={linkedinSvg} alt="linkedin" className="svg-img-linkedin" />
+            <a href='https://github.com/lana2-2karla' target="_blank" rel="noopener noreferrer">
+                <img src={githubSvg} alt="github" className="svg-img-github" />
+            </a>
+            <a href='https://www.linkedin.com/in/lana-karla/' target="_blank" rel="noopener noreferrer">
+                <img src={linkedinSvg} alt="linkedin" className="svg-img-linkedin" />
+            </a>
         </div>
     </div>
   )
