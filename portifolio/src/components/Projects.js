@@ -8,8 +8,9 @@ function Projects () {
       id: 1,
       title: 'Projeto 1',
       description: 'Descrição do Projeto 1',
-      image: 'https://via.placeholder.com/200', // URL da imagem do projeto 1
-      technologies: ['React', 'CSS', 'JavaScript']
+      image: 'https://user-images.githubusercontent.com/93014254/207421866-4a739cbe-f82e-4cca-ab7f-7806084e881b.png', // URL da imagem do projeto 1
+      technologies: ['React', 'CSS', 'JavaScript', 'Node.js', 'docker', 'sequelize'],
+      githubLink: 'https://github.com/lana2-2karla/food-delivery-app'
     },
     {
       id: 2,
