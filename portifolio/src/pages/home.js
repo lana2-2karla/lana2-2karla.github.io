@@ -16,9 +16,9 @@ function Home () {
       <AboutMe />
       <Projects />
       <br /> <br /> <br />
+      <Timeline />
       <Technologies />
       <OtherSkills />
-      <Timeline />
       <Footer />
     </div>
   )
