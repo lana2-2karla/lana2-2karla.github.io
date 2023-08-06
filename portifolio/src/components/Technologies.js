@@ -20,7 +20,7 @@ function Technologies () {
   ]
 
   return (
-    <div className="technologies">
+    <div id="technologies" className="technologies">
       <h2>Tecnologias</h2>
       <br/><br/> <br/><br/>
       <div className="cardsIcon-container">

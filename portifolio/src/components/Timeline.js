@@ -3,7 +3,7 @@ import './Timeline.css'
 
 function Timeline () {
   return (
-    <div className="experience-timeline">
+    <div id="experiences" className="experience-timeline">
       <h2>Experiências</h2>
       <div className="line"></div>
       <div className="experience">
