@@ -4,24 +4,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     padding: 10px;
 }
+
   
 .left {
     flex: 1;
-}
-  
-.center {
-    flex: 2;
-    display: flex;
-    justify-content: center;
-}
-  
-.right {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
 }
   
 .tab {
@@ -32,8 +20,17 @@
 .portfolio-tab {
     cursor: pointer;
 }
-  
-.svg-img-github {
-    margin-right: 5%; 
+
+.right a {
+    margin: 0 10px; /* Adjust the margin to your desired spacing */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Show the pointer cursor on hover */
+}
+
+.center a {
+    margin: 0 5px;
+    text-decoration: none; /* Remove sublinhado  */
+    color: inherit; /* UUsa a cor do elemento pai (branco)  */
+    cursor: pointer; /* Mostra o cursor do ponteiro ao passar o mouse  */
 }
   
