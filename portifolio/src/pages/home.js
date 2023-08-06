@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import AboutMe from '../components/AboutMe'
 import Projects from '../components/Projects'
 import Technologies from '../components/Technologies'
+import OtherSkills from '../components/OtherSkills'
 
 function Home () {
   return (
@@ -14,6 +15,7 @@ function Home () {
       <Projects />
       <br /> <br /> <br />
       <Technologies />
+      <OtherSkills />
     </div>
   )
 }
