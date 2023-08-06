@@ -7,6 +7,7 @@ import Projects from '../components/Projects'
 import Technologies from '../components/Technologies'
 import OtherSkills from '../components/OtherSkills'
 import Timeline from '../components/Timeline'
+import Footer from '../components/Footer'
 
 function Home () {
   return (
@@ -18,6 +19,7 @@ function Home () {
       <Technologies />
       <OtherSkills />
       <Timeline />
+      <Footer />
     </div>
   )
 }
