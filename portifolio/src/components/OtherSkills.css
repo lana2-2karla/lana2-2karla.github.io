@@ -1,0 +1,27 @@
+.other-technologies {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+  
+  .technologies-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .technology-card {
+    flex-basis: calc(33.33% - 20px); /* 33.33% width for each card and 20px spacing */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
