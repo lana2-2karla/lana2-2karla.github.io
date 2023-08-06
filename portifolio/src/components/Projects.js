@@ -7,7 +7,7 @@ function Projects () {
     {
       id: 1,
       title: 'Projeto 1',
-      description: 'Descrição do Projeto 1',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporary incididunt ut labore et dolore magna aliqua. Enim adim ad minimim veniam, quis nostrud exercise ullamco laboris nisi ut alipip ex ea commodo consequat. Duis auteur irure pain in reprehenderit in voluptate velit this cillum dolore eu fugiat nulla pariatur. Excepteur sint occecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       image: 'https://user-images.githubusercontent.com/93014254/207421866-4a739cbe-f82e-4cca-ab7f-7806084e881b.png', // URL da imagem do projeto 1
       technologies: ['React', 'CSS', 'JavaScript', 'Node.js', 'docker', 'sequelize'],
       githubLink: 'https://github.com/lana2-2karla/food-delivery-app'
@@ -22,7 +22,7 @@ function Projects () {
     {
       id: 3,
       title: 'Projeto 3',
-      description: 'Descrição do Projeto 3',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporary incididunt ut labore et dolore magna aliqua. Enim adim ad minimim veniam, quis nostrud exercise ullamco laboris nisi ut alipip ex ea commodo consequat. Duis auteur irure pain in reprehenderit in voluptate velit this cillum dolore eu fugiat nulla pariatur. Excepteur sint occecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       image: 'https://via.placeholder.com/200', // URL da imagem do projeto 3
       technologies: ['React', 'Redux', 'Node.js']
     },
@@ -45,6 +45,7 @@ function Projects () {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <p>{project.technologies.join(', ')}</p>
+            <br />
             <div className="buttons-container">
               <a href={project.accessLink} className="btn">Acesse</a>
               <a href={project.githubLink} className="btn">GitHub</a>
