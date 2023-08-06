@@ -1,23 +1,23 @@
 import React from 'react'
 import './OtherSkills.css'
 
-function OtherTechnologies () {
-  const otherTechnologies = [
+function OtherSkills () {
+  const otherSkills = [
     'Node.js',
     'Express.js',
     'MongoDB',
     'Firebase',
     'Django',
     'Swift'
-    // Add more technologies here
+    // Add more Skills here
   ]
 
   return (
-      <section className="other-technologies">
+      <section className="other-skills">
         <h2>Outras Tecnologias e Skills</h2>
-        <div className="technologies-container">
-          {otherTechnologies.map((technology, index) => (
-            <div key={index} className="technology-card">
+        <div className="skills-container">
+          {otherSkills.map((technology, index) => (
+            <div key={index} className="skills-card">
               <p>. {technology}</p>
             </div>
           ))}
@@ -26,4 +26,4 @@ function OtherTechnologies () {
   )
 }
 
-export default OtherTechnologies
+export default OtherSkills

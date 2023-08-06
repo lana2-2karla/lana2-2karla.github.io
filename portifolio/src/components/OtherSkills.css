@@ -1,4 +1,4 @@
-.other-technologies {
+.other-skills {
     padding: 20px;
     text-align: center;
   }
@@ -9,13 +9,13 @@
     text-align: start;
   }
   
-  .technologies-container {
+  .skills-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
   
-  .technology-card {
+  .skills-card {
     flex-basis: calc(33.33% - 20px); /* 33.33% width for each card and 20px spacing */
     height: 100px;
     display: flex;
