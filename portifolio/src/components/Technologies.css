@@ -1,15 +1,15 @@
-.tecnologias {
-  padding: 20px;
+.technologies {
+  padding-top: 11%;
   text-align: center;
 }
 
 h2 {
   font-size: 28px;
   margin-top: 20px; /* Adicione o espaçamento entre o título e os cards */
-  margin-bottom: 20px;
 }
 
 .cardsIcon-container {
+  margin-top: 8%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap; /* Quebra os elementos em várias linhas */
@@ -29,6 +29,14 @@ h2 {
   margin: 10px; /* Adicione o espaçamento entre os cards */
 }
 
+.png-img-icons {
+  margin-top: 3%;
+}
+
 .card p {
   margin-top: 10px;
+}
+
+.card-icon:hover {
+  border: 1px solid #986dff;
 }
