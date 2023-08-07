@@ -14,7 +14,7 @@ function OtherSkills () {
 
   return (
       <section className="other-skills">
-        <h2>Outras Tecnologias e Skills</h2>
+        <h2>Outras Skills</h2>
         <div className="skills-container">
           {otherSkills.map((technology, index) => (
             <div key={index} className="skills-card">
