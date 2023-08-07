@@ -1,7 +1,7 @@
 .other-skills {
     padding: 20px;
     text-align: center;
-    padding-top: 32%;
+    padding-top: 30%;
   }
   
   h2 {
@@ -18,12 +18,13 @@
   }
   
   .skills-card {
-    flex-basis: calc(33.33% - 20px); /* 33.33% width for each card and 20px spacing */
+    flex-basis: calc(25% - 20px); /* 25% de largura para cada card e 20px de espaçamento */
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px;
     font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 10px;
   }
-  
