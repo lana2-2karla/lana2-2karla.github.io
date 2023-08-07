@@ -4,33 +4,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-}
+    margin-top: 4%; 
+} 
 
   
-.left {
-    flex: 1;
+.left, .center, .right {
+    flex: 1; /* Divide o container em três partes iguais */
 }
-  
-.tab {
-    margin: 0 15px;
-    cursor: pointer;
-}
-  
-.portfolio-tab {
-    cursor: pointer;
+
+.right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .right a {
-    margin: 0 10px; /* Adjust the margin to your desired spacing */
-    text-decoration: none; /* Remove underline */
-    cursor: pointer; /* Show the pointer cursor on hover */
-}
+    margin: 0 10px; 
+    cursor: pointer; 
+} 
 
 .center a {
-    margin: 0 5px;
+    margin: 0 10px;
     text-decoration: none; /* Remove sublinhado  */
-    color: inherit; /* UUsa a cor do elemento pai (branco)  */
-    cursor: pointer; /* Mostra o cursor do ponteiro ao passar o mouse  */
-}
-  
+    color: inherit; /* Usa a cor do elemento pai (branco) */
+    cursor: pointer; /* Mostra o cursor do ponteiro ao passar o mouse */
+} 
