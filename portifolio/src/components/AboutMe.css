@@ -51,5 +51,16 @@ p {
 .btn:hover {
     transform: scale(1.1); 
 }
-  
+
+.li-about {
+    color: #3498db; /* Escolha uma cor suave para os links */
+    font-weight: 600; /* Torna o texto um pouco mais negrito */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out; /* Adiciona uma transição suave de cor */
+    cursor: pointer;
+}
+
+.color-purple {
+    color: #986dff;
+}
   
