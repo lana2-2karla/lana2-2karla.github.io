@@ -15,14 +15,17 @@ function AboutMe () {
   return (
     <section className="about-me">
         <div className="left-about">
-            <h2>Sobre Mim</h2>
+            <h4 className='color-purple'>Quem sou</h4>
+            <h2>Allana Karla</h2>
+            <h3 className='color-grey'>Desenvolvedora Full Stack com foco em Back-end</h3>
+            <br />
             <li>🌟 Apaixonada por tecnologia e entusiasta da literatura oriental,</li>
-            <li>🎓 Formada em Desenvolvimento Web Full Stack na <a href="https://betrybe.com">Trybe</a>,</li>
-            <li>📚 Cursando Análise e Desenvolvimento de Sistemas na <a href="https://betrybe.com">Uninter</a>,</li>
-            <li>🎯 Meu foco principal: Fullstack,</li>
-            <li>💬 Pergunte-me sobre qualquer coisa, adoro conversar e ajudar pessoas,</li>
-            <li>⚡ Tecnologias em andamento: Next.js, Prisma ORM,</li>
-            <li>🌈Uma frase: Só porque você não conhece, não significa que não exista</li>
+            <li>🎓 Formada em Desenvolvimento Web Full Stack na <a className='li-about' href="https://www.betrybe.com/formacao-desenvolvimento-web">Trybe</a>,</li>
+            <li>📚 Cursando Análise e Desenvolvimento de Sistemas na <a className='li-about' href="https://www.uninter.com/graduacao-ead/curso-analise-e-desenvolvimento-de-sistemas/">Uninter</a>,</li>
+            <li>🎯 Foco principal: back-end,</li>
+            <li>💬 Pergunte-me sobre qualquer coisa, amo conversar e ajudar,</li>
+            <li>⚡ Tecnologias em andamento: C# e .NET,</li>
+            <li>🌈 Compilar: &quot;transformar sonhos em realidade virtual&quot;</li>
             <br />
             <button className="btn" onClick={handleDownloadCV}>Baixar CV</button>
         </div>
