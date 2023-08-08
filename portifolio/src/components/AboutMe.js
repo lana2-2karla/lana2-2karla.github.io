@@ -15,8 +15,14 @@ function AboutMe () {
   return (
     <section className="about-me">
         <div className="left-about">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporary incididunt ut labore et dolore magna aliqua. Enim adim ad minimim veniam, quis nostrud exercise ullamco laboris nisi ut alipip ex ea commodo consequat. Duis auteur irure pain in reprehenderit in voluptate velit this cillum dolore eu fugiat nulla pariatur. Excepteur sint occecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Sobre Mim</h2>
+            <li>🌟 Apaixonada por tecnologia e entusiasta da literatura oriental,</li>
+            <li>🎓 Formada em Desenvolvimento Web Full Stack na <a href="https://betrybe.com">Trybe</a>,</li>
+            <li>📚 Cursando Análise e Desenvolvimento de Sistemas na <a href="https://betrybe.com">Uninter</a>,</li>
+            <li>🎯 Meu foco principal: Fullstack,</li>
+            <li>💬 Pergunte-me sobre qualquer coisa, adoro conversar e ajudar pessoas,</li>
+            <li>⚡ Tecnologias em andamento: Next.js, Prisma ORM,</li>
+            <li>🌈Uma frase: Só porque você não conhece, não significa que não exista</li>
             <br />
             <button className="btn" onClick={handleDownloadCV}>Baixar CV</button>
         </div>
