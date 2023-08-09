@@ -5,9 +5,9 @@ function Footer () {
   return (
     <footer className="footer">
         <div className="container">
-            <p>© 2023 Allana Karla. Todos os direitos reservados.</p>
+            <p className='font-size-p'>© 2023 Allana Karla. Todos os direitos reservados.</p>
             <div>
-                <p>Email: allanakarla1702@gmail.com</p>
+                <p className='font-size-p'>Email: allanakarla1702@gmail.com</p>
             </div>
         </div>
     </footer>
