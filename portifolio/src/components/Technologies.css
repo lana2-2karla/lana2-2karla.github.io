@@ -33,10 +33,6 @@ h2 {
   margin: 0;
 }
 
-.card p {
-  margin-top: 10px;
-}
-
 .card-icon:hover {
   border: 2px solid #986dff;
 }
