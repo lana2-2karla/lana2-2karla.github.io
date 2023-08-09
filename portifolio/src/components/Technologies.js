@@ -43,7 +43,7 @@ function Technologies () {
 
   return (
     <div id="technologies" className="technologies">
-      <h2>Tecnologias</h2>
+      <h3>Tecnologias</h3>
       <div className="cardsIcon-container">
         {technologies.map((technology, index) => (
           <div key={index} className="card-icon">

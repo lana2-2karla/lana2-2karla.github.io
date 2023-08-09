@@ -41,12 +41,12 @@ function Projects () {
 
   return (
     <section id="projects" className="projects">
-      <h2>Projetos</h2>
+      <h3>Projetos</h3>
       <div className="cards-container">
         {projectsData.map((project) => (
           <div key={project.id} className="card">
             <img src={project.image} alt={project.title} className="project-image" />
-            <h3>{project.title}</h3>
+            <h4>{project.title}</h4>
             <p className='color-grey'>{project.description}</p>
             <p>{project.technologies.join(', ')}</p>
             <br />
