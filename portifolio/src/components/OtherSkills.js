@@ -3,7 +3,7 @@ import './OtherSkills.css'
 
 function OtherSkills () {
   const otherSkills = [
-    'Métodos ágeis: [Scrum, Kanban]',
+    'Métodos ágeis [Scrum, Kanban]',
     'POO',
     'SOLID',
     'Vercel',
