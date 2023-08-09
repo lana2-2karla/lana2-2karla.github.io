@@ -16,7 +16,7 @@ h2 {
 }
 
 .card-icon {
-  flex-basis: calc(25% - 20px); /* 25% de largura para cada card e 20px de espaçamento */
+  flex-basis: calc(23% - 18px); /* 25% de largura para cada card e 20px de espaçamento */
   height: 120px;
   display: flex;
   flex-direction: column;
@@ -35,8 +35,9 @@ h2 {
 
 .card p {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card-icon:hover {
-  border: 1px solid #986dff;
+  border: 2px solid #986dff;
 }
