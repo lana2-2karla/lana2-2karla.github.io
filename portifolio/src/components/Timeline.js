@@ -7,18 +7,18 @@ function Timeline () {
       <h2>Experiências</h2>
       <div className="line"></div>
       <div className="experience">
-        <h3>2021</h3>
-        <p>Started my journey in web development</p>
+        <h3>2021 - 2022</h3>
+        <p>Desenvolvimento de habilidades Full Stack</p>
       </div>
       <div className="line"></div>
       <div className="experience">
-        <h3>2022</h3>
-        <p>Worked as a front-end developer in XYZ Company</p>
+        <h3>2023 (fev - maio)</h3>
+        <p>Experiência como Auxiliar de Automação na SalaryFits</p>
       </div>
       <div className="line"></div>
       <div className="experience">
-        <h3>2023</h3>
-        <p>Currently expanding skills in mobile app development</p>
+        <h3>Momento atual</h3>
+          <p>Curso Análise e Desenvolvimento de Sistemas em andamento</p>
       </div>
     </div>
   )
