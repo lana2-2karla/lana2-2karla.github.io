@@ -34,7 +34,8 @@ function Projects () {
       title: 'TPhoneBox',
       description: 'Projeto fullstack que simula a página inicial de um aplicativo de assinaturas. Oferece todas as informações essenciais para a assinatura mensal de um smartphone.',
       image: tPhoneBox,
-      technologies: ['Vue.js', 'HTML', 'CSS', 'JavaScrip', 'Node.js', 'Prisma', 'Moongose', 'MySQL', 'MongoDB']
+      technologies: ['Vue.js', 'HTML', 'CSS', 'JavaScrip', 'Node.js', 'Prisma', 'Moongose', 'MySQL', 'MongoDB'],
+      githubLink: 'https://github.com/lana2-2karla/TPhoneBox'
     }
   ]
 
@@ -50,8 +51,8 @@ function Projects () {
             <p>{project.technologies.join(', ')}</p>
             <br />
             <div className="buttons-container">
-              <a href={project.accessLink} className="btn">Acesse</a>
-              <a href={project.githubLink} className="btn">GitHub</a>
+              <a href={project.accessLink} className="btn" target="_blank" rel="noopener noreferrer">Acesse</a>
+              <a href={project.githubLink} className="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
         ))}
