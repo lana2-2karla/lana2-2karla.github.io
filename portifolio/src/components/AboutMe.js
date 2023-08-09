@@ -16,8 +16,8 @@ function AboutMe () {
     <section className="about-me">
         <div className="left-about">
             <h4 className='color-purple'>Quem sou</h4>
-            <h2>Allana Karla</h2>
-            <h3 className='color-grey'>Desenvolvedora Full Stack com foco em Back-end</h3>
+            <h2 className='font-size-twenty-six'>Allana Karla</h2>
+            <h3 className='color-grey font-size-eighteen'>Desenvolvedora Full Stack com foco em Back-end</h3>
             <br />
             <li>🌟 Apaixonada por tecnologia e entusiasta da literatura oriental,</li>
             <li>🎓 Formada em Desenvolvimento Web Full Stack na <a className='li-about' href="https://www.betrybe.com/formacao-desenvolvimento-web" target="_blank" rel="noopener noreferrer">Trybe</a>,</li>
