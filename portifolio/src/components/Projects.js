@@ -1,5 +1,6 @@
 import React from 'react'
 import './Projects.css'
+import tPhoneBox from '../assets/tphonebox.png'
 
 function Projects () {
   // Dados fictícios para os projetos
@@ -32,7 +33,7 @@ function Projects () {
       id: 4,
       title: 'TPhoneBox',
       description: 'Projeto fullstack que simula a página inicial de um aplicativo de assinaturas. Oferece todas as informações essenciais para a assinatura mensal de um smartphone.',
-      image: 'https://user-images.githubusercontent.com/93014254/249188454-486890e5-4626-4394-abf9-f7a57e637400.png',
+      image: tPhoneBox,
       technologies: ['Vue.js', 'HTML', 'CSS', 'JavaScrip', 'Node.js', 'Prisma', 'Moongose', 'MySQL', 'MongoDB']
     }
   ]
