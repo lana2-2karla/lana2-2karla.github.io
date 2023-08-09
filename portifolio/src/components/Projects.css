@@ -44,8 +44,9 @@
     margin-bottom: 10px;
   }
   
-  p {
+  .p-projects {
     font-size: 16px;
+    margin-bottom: 10px;
   }
 
   .btn {

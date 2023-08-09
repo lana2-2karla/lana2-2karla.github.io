@@ -47,8 +47,8 @@ function Projects () {
           <div key={project.id} className="card">
             <img src={project.image} alt={project.title} className="project-image" />
             <h3>{project.title}</h3>
-            <p className='color-grey'>{project.description}</p>
-            <p>{project.technologies.join(', ')}</p>
+            <p className='color-grey p-projects'>{project.description}</p>
+            <p className='p-projects'>{project.technologies.join(', ')}</p>
             <br />
             <div className="buttons-container">
               <a href={project.accessLink} className="btn" target="_blank" rel="noopener noreferrer">Acesse</a>
