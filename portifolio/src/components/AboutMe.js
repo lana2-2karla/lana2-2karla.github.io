@@ -20,8 +20,8 @@ function AboutMe () {
             <h3 className='color-grey'>Desenvolvedora Full Stack com foco em Back-end</h3>
             <br />
             <li>🌟 Apaixonada por tecnologia e entusiasta da literatura oriental,</li>
-            <li>🎓 Formada em Desenvolvimento Web Full Stack na <a className='li-about' href="https://www.betrybe.com/formacao-desenvolvimento-web">Trybe</a>,</li>
-            <li>📚 Cursando Análise e Desenvolvimento de Sistemas na <a className='li-about' href="https://www.uninter.com/graduacao-ead/curso-analise-e-desenvolvimento-de-sistemas/">Uninter</a>,</li>
+            <li>🎓 Formada em Desenvolvimento Web Full Stack na <a className='li-about' href="https://www.betrybe.com/formacao-desenvolvimento-web" target="_blank" rel="noopener noreferrer">Trybe</a>,</li>
+            <li>📚 Cursando Análise e Desenvolvimento de Sistemas na <a className='li-about' href="https://www.uninter.com/graduacao-ead/curso-analise-e-desenvolvimento-de-sistemas/" target="_blank" rel="noopener noreferrer">Uninter</a>,</li>
             <li>🎯 Foco principal: back-end,</li>
             <li>💬 Pergunte-me sobre qualquer coisa, amo conversar e ajudar,</li>
             <li>⚡ Tecnologias em andamento: C# e .NET,</li>
