@@ -29,8 +29,11 @@ h2 {
   margin: 10px; /* Adicione o espaçamento entre os cards */
 }
 
+.p-tec {
+  margin-bottom: 10px;
+}
+
 .png-img-icons {
-  margin-top: 50px;
   margin: 0;
 }
 

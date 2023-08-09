@@ -47,7 +47,7 @@ function Technologies () {
       <div className="cardsIcon-container">
         {technologies.map((technology, index) => (
           <div key={index} className="card-icon">
-            <p>{technology.name}</p>
+            <p className='.p-tec'>{technology.name}</p>
               <img src={technology.icon} alt={technology.name} className="png-img-icons" />
           </div>
         ))}

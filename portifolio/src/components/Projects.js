@@ -47,7 +47,7 @@ function Projects () {
           <div key={project.id} className="card">
             <img src={project.image} alt={project.title} className="project-image" />
             <h3>{project.title}</h3>
-            <p className='color-grey p-projects'>{project.description}</p>
+            <p className='color-grey p-projects p-bottom'>{project.description}</p>
             <p className='p-projects'>{project.technologies.join(', ')}</p>
             <br />
             <div className="buttons-container">
