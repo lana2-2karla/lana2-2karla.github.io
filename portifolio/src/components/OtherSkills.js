@@ -7,7 +7,7 @@ function OtherSkills () {
     'POO',
     'SOLID',
     'Vercel',
-    'Aprender a aprender',
+    'Conventional commits ',
     'Pesquisas com chatGPT'
   ]
 
