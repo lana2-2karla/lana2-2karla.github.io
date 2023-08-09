@@ -3,13 +3,12 @@ import './OtherSkills.css'
 
 function OtherSkills () {
   const otherSkills = [
-    'Node.js',
-    'Express.js',
-    'MongoDB',
-    'Firebase',
-    'Django',
-    'Swift'
-    // Add more Skills here
+    'Métodos ágeis: [Scrum, Kanban]',
+    'POO',
+    'SOLID',
+    'Vercel',
+    'Aprender a aprender',
+    'Pesquisas com chatGPT'
   ]
 
   return (
