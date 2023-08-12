@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 import drawingSvg from '../assets/drawing.svg'
-import CVFile from '../assets/currículo-desenvolvedora-full-stack-Allana-Justino.pdf'
+import CVFile from '../assets/allana-justino-currículo.pdf'
 
 function AboutMe () {
   const handleDownloadCV = () => {
